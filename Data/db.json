@@ -1,0 +1,23 @@
+{
+  "blog": [
+    {
+      "title": "My New Website",
+      "content": "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque nihil modi, architecto molestiae rerum eaque sapiente ab eum eligendi suscipit quasi voluptate dignissimos ipsa, illum deserunt assumenda qui aliquid laudantium.",
+      "writer": "adam swan",
+      "id": 1
+    },
+    {
+      "title": "My New Website",
+      "content": "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque nihil modi, architecto molestiae rerum eaque sapiente ab eum eligendi suscipit quasi voluptate dignissimos ipsa, illum deserunt assumenda qui aliquid laudantium.",
+      "writer": "adam swan",
+      "id": 2
+    },
+    {
+      "title": "My New Website",
+      "content": "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque nihil modi, architecto molestiae rerum eaque sapiente ab eum eligendi suscipit quasi voluptate dignissimos ipsa, illum deserunt assumenda qui aliquid laudantium.",
+      "writer": "Ajay",
+      "id": 3
+    }
+  
+  ]
+}
