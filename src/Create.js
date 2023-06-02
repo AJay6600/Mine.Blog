@@ -14,8 +14,9 @@ const Create = () => {
         setIsPending(true)
         const blog={title,content,writer}
         console.log(blog)
-         await fetch("https://jade-average-panther.cyclic.app/blog/",{
+         await fetch("https://blog-api-tqtv.onrender.com/blog",{
             method:'POST',
+            // moade:'no-cors',
             headers:{'Content-Type':"application/json"},
             body:JSON.stringify(blog)
         }).then(()=>{

@@ -4,7 +4,7 @@ import Blogs from './Blogs'
 
 const Home = () => {
     
-    const {data:blog,pending,error}= useFetch("https://jade-average-panther.cyclic.app/blog")
+    const {data:blog,pending,error}= useFetch("https://blog-api-tqtv.onrender.com/blog")
        console.log(blog)
   
     // let handleDelete = (id)=>{
