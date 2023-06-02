@@ -9,12 +9,12 @@ const Create = () => {
     const [isPending,setIsPending]=useState(false)
     const history=new useHistory()
 
-    const handleSubmit =(e)=>{
+    const handleSubmit =async(e)=>{
         e.preventDefault()
         setIsPending(true)
         const blog={title,content,writer}
         console.log(blog)
-        fetch("http://localhost:8000/blog/",{
+         await fetch("https://jade-average-panther.cyclic.app/blog/",{
             method:'POST',
             headers:{'Content-Type':"application/json"},
             body:JSON.stringify(blog)

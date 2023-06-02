@@ -2,7 +2,7 @@ import {useParams} from 'react-router-dom'
 import useFetch from './useFetch';
 const BlogDetails = () => {
     const { id } =useParams()
-    const {data:blog,pending,error}=useFetch("http://localhost:8000/blog/"+id)
+    const {data:blog,pending,error}=useFetch("https://jade-average-panther.cyclic.app/blog/"+id)
     return ( <div>
         {pending && <h4>loading...</h4>}
         {error && <h4>{error}</h4>}
